@@ -17,3 +17,5 @@ scalaVersion := "2.11.6"
 libraryDependencies ++= Seq(
   "org.specs2" %% "specs2-core" % "3.6.1" % Test
 )
+
+resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
